@@ -1,6 +1,6 @@
-# fxserver-esx_advanced_holdup
+# esx_advanced_holdup
 
-FXServer ESX Advanced Holdup
+ESX Advanced Holdup
 
 
 [INSTALLATION]
