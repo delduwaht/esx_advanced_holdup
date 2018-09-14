@@ -15,10 +15,10 @@ function CountCops()
 		if xPlayer.job.name == 'police' then
 			copsConnected = copsConnected + 1
 		end
-		TriggerClientEvent('esx_advanced_holdup:copsConnected', xPlayer.source, copsConnected)
 	end
+	TriggerClientEvent('esx_advanced_robbery:copsConnected', -1, copsConnected)
 
-	SetTimeout(5000, CountCops)
+	SetTimeout(60000, CountCops)
 
 end
 
