@@ -16,7 +16,7 @@ function CountCops()
 			copsConnected = copsConnected + 1
 		end
 	end
-	TriggerClientEvent('esx_advanced_robbery:copsConnected', -1, copsConnected)
+	TriggerClientEvent('esx_advanced_holdup:copsConnected', -1, copsConnected)
 
 	SetTimeout(60000, CountCops)
 
