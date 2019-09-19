@@ -22,7 +22,7 @@ function CountCops()
 
 end
 
-ESX.RegisterServerCallback('esx_advanced_holdup:canRob', function(source, cb, name, requireCops)
+ESX.RegisterServerCallback('esx_advanced_holdup:canRob', function(source, cb, requireCops)
     local copsConnected = 0
     local xPlayers 	= ESX.GetPlayers()
 
